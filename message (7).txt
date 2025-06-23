@@ -479,14 +479,14 @@ Button="#0ea5e9",
 Icon="#bae6fd",
 },
 Violet = {
-Name = "Violet",
-Accent = "#6d28d9",   
-Outline = "#a78bfa",      
-Text = "#d8b4fe",           
-Placeholder = "#a78bfa",    
-Background = "#2e1065",    
-Button = "#6d28d9",        
-Icon = "#c084fc",        
+    Name = "Violet",
+    Accent = "#5b21b6",         -- darker violet (between violet-800 and -900)
+    Outline = "#7e22ce",        -- rich dark violet
+    Text = "#c084fc",           -- still readable but darker than #ede9fe
+    Placeholder = "#9333ea",    -- deep violet-600
+    Background = "#1e0e3e",     -- custom very dark purple
+    Button = "#5b21b6",         -- match Accent
+    Icon = "#a855f7",           -- violet-500
 },
 Amber={
 Name="Amber",
