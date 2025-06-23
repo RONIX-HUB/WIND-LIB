@@ -6364,7 +6364,7 @@ AutomaticSize="XY",
 BackgroundTransparency=1,
 },{
 e("TextLabel",{
-Text=p.User.Anonymous and"Anonymous"or game.Players.LocalPlayer.DisplayName,
+Text=p.User.Anonymous and"Ronix User"or game.Players.LocalPlayer.DisplayName,
 TextSize=17,
 ThemeTag={
 TextColor3="Text",
@@ -6377,7 +6377,7 @@ TextTruncate="AtEnd",
 TextXAlignment="Left",
 }),
 e("TextLabel",{
-Text=p.User.Anonymous and"@anonymous"or"@"..game.Players.LocalPlayer.Name,
+Text=p.User.Anonymous and"@Ronix User"or"@"..game.Players.LocalPlayer.Name,
 TextSize=15,
 TextTransparency=.6,
 ThemeTag={
