@@ -1106,7 +1106,7 @@ B.AnchorPoint=Vector2.new(0,1)
 end
 
 if i.KeySystem.URL then
-g("Get key","key",function()
+g("Join Discord for Key","key",function()
 setclipboard(i.KeySystem.URL)
 end,"Secondary",z.Frame)
 end
