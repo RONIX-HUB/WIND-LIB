@@ -526,6 +526,7 @@ Image=d.Icon(h)[1],
 ImageRectSize=d.Icon(h)[2].ImageRectSize,
 ImageRectOffset=d.Icon(h)[2].ImageRectPosition,
 Size=UDim2.new(0,60,0,60),
+ScaleType = Enum.ScaleType.Fit,
 BackgroundTransparency=1,
 ThemeTag={
 ImageColor3="Icon",
