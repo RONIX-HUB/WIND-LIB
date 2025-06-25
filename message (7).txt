@@ -484,7 +484,7 @@ Violet = {
     Outline = "#3A3F99",        -- deep blurple outline
     Text = "#B4B9FF",           -- soft but readable light blurple
     Placeholder = "#6C72D7",    -- medium blurple for placeholder
-    Background = "#151734",     -- very dark blurple-toned background
+    Background = "#433c88",     -- very dark blurple-toned background
     Button = "#4752C4",         -- match Accent
     Icon = "#8C94F4",           -- muted light blurple
 },
