@@ -479,14 +479,14 @@ Button="#0ea5e9",
 Icon="#bae6fd",
 },
 Violet = {
-    Name = "Violet",
-    Accent = "#4752C4",         -- darker than Discord blurple
-    Outline = "#3A3F99",        -- deep blurple outline
-    Text = "#B4B9FF",           -- soft but readable light blurple
-    Placeholder = "#6C72D7",    -- medium blurple for placeholder
-    Background = "#433c88",     -- very dark blurple-toned background
-    Button = "#4752C4",         -- match Accent
-    Icon = "#8C94F4",           -- muted light blurple
+    Name = "Vioelt",
+    Accent = "#5865F2",         -- Discord blurple
+    Outline = "#4752C4",        -- slightly darker border
+    Text = "#D1D5FF",           -- pale blue-violet for high contrast
+    Placeholder = "#818CF8",    -- lighter blurple
+    Background = "#1E1B3A",     -- dark bluish-purple background
+    Button = "#5865F2",         -- same as Accent
+    Icon = "#A5B4FC",           -- subtle light blurple
 },
 
 Amber={
