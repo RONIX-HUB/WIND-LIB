@@ -1,3 +1,4 @@
+--i used ai i dont give a shit
 print("join https://discord.gg/4QvZeh2jsd")
 
 warn("ronver is a pussy nigga")
@@ -8,3 +9,50 @@ warn("Ronver logs all his members")
 
 warn("Ronix windows is skidded")
 print("bdokkx forever niggas!")
+
+local Players = game:GetService('Players')
+local player = Players.LocalPlayer
+
+-- Create ScreenGui
+local screenGui = Instance.new('ScreenGui')
+screenGui.Name = 'SkidGui'
+screenGui.ResetOnSpawn = false
+screenGui.Parent = player:WaitForChild('PlayerGui')
+
+-- Create Frame
+local frame = Instance.new('Frame')
+frame.Size = UDim2.new(1, 0, 1, 0)
+frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+frame.BorderSizePixel = 0
+frame.Parent = screenGui
+
+-- Create TextLabel
+local label = Instance.new('TextLabel')
+label.Text = 'RONIX IS FUCKING RATTED NIGGAS DONT USE RONIX ITS RATTED'
+label.Font = Enum.Font.GothamBlack
+label.TextColor3 = Color3.fromRGB(255, 50, 50)
+label.TextScaled = true
+label.BackgroundTransparency = 1
+label.Size = UDim2.new(1, 0, 0.3, 0)
+label.Position = UDim2.new(0, 0, 0.2, 0)
+label.Parent = frame
+
+-- Create Button
+local button = Instance.new('TextButton')
+button.Text = 'Join Discord'
+button.Font = Enum.Font.GothamBold
+button.TextColor3 = Color3.fromRGB(255, 255, 255)
+button.TextScaled = true
+button.BackgroundColor3 = Color3.fromRGB(88, 101, 242)
+button.Size = UDim2.new(0.3, 0, 0.1, 0)
+button.Position = UDim2.new(0.35, 0, 0.55, 0)
+button.Parent = frame
+
+-- Button Action (copy Discord link to clipboard)
+button.MouseButton1Click:Connect(function()
+    local invite = 'https://discord.gg/4QvZeh2jsd'
+    setclipboard(invite)
+    button.Text = 'Copied to Clipboard!'
+    wait(2)
+    button.Text = 'Join Discord'
+end)
