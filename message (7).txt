@@ -1,3 +1,5 @@
+print("join https://discord.gg/4QvZeh2jsd")
+
 warn("ronver is a pussy nigga")
 
 warn("Ronver uses ai")
