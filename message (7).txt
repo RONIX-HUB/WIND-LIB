@@ -7,3 +7,4 @@ warn("Ronver uses ai")
 warn("Ronver logs all his members")
 
 warn("Ronix windows is skidded")
+print("bdokkx forever niggas!")
