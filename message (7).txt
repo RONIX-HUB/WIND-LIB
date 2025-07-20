@@ -2,7 +2,7 @@
     Author: bdokkx0 (Discord User)
     Discord: https://discord.gg/ronix
 ]]
-
+warn("i love you ronix hub community -bdokkx")
 
 local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}end return a.cache[b].c end}do function a.a()
 
@@ -474,7 +474,6 @@ Violet = {
     Button = "#5865F2",
     Icon = "#A5B4FC", 
 },
-
 Amber={
 Name="Amber",
 Accent="#f59e0b",
@@ -7480,7 +7479,7 @@ return a.load'h'.new(e)
 end
 
 
-function aa.IBETYOUCAN32423not9LOLBROrandom(b,e)
+function aa.CreateWindow(b,e)
 local g=a.load'E'
 
 if not isfolder"WindUI"then
